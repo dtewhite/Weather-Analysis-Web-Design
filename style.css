@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    margin-bottom: 40px;
+}
+
+#sum_img{
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.left{
+    float: left;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+    [class*="make_small"] {
+    font-size: x-large;
+  }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.img_bord {
+    border-style: solid;
+    border-color: skyblue;
+}
+
+table{
+    max-width: 100%;
+    width: auto;
+}

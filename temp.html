@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><h1>WeatherPy</h1></a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1 class="display-6">Temperature vs. Latitude</h1>
+                    <hr>
+                    <a href="Resources\assets\images\Fig1.png" class="navbar make_small img_bord">
+                        <img border="0" alt="Temperature" src="Resources\assets\images\Fig1.png" width="650px" height="450px">
+                    </a>
+                    <p>The first factor we looked at was the variation in temperature based on how far each city examined
+                        was from the equator. This seems like a silly analysis at first, but after looking at the 
+                        associated image it is apparent that there is more than meets the eye.
+                    </p>
+                    <p>
+                        There is a clear trend that the further from the equator a city is, the lower the maximum 
+                        temperature will be. This is not unexpected. Interestingly though,there are more cities further 
+                        north than there are further south, which we think is because there is actually more land mass in 
+                        the northern hemisphere than in the southern (Canada, Greenland and Northern Eurasia).
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="jumbotron">
+                    <h1 class="display-6 make_small">Visualizations</h1>
+                    <hr>
+                    <div class="row navbar">
+                        <div>
+                            <h6>Temperature</h6>
+                            <a href="temp.html">
+                                <img border="0" alt="Temperature" src="Resources\assets\images\Fig1.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                        <div>
+                            <h6>Humidity</h6>
+                            <a href="humidity.html">
+                                <img border="0" alt="Humidity" src="Resources\assets\images\Fig2.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row navbar">
+                        <div>
+                            <h6>Cloudiness</h6>
+                            <a href="cloudiness.html">
+                                <img border="0" alt="Cloudiness" src="Resources\assets\images\Fig3.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                        <div>
+                            <h6>Wind Speed</h6>
+                            <a href="wind.html">
+                                <img border="0" alt="Wind Speed" src="Resources\assets\images\Fig4.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><h1>WeatherPy</h1></a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+            </li>
+            </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <h1 class="display-6">Humidity vs. Latitude</h1>
+                    <hr>
+                    <a href="Resources\assets\images\Fig2.png" class="navbar img_bord">
+                        <img border="0" alt="Humidity" src="Resources\assets\images\Fig2.png" width="650px" height="450px">
+                    </a>
+                    <p>The next factor we analyzed was how humidity varied further from the equator. We had very few 
+                        expectations regarding this variable, but were none-the-less surprised by the results.
+                    </p>
+                    <p>
+                        It appears based in this dataset that northern cities are more humid than those closer to the 
+                        equator or in the southern hemisphere. This is a little strange as the specific dataset used was
+                        assembled while it was winter in the northern hemisphere and cold air tends to be dryer. The trend,
+                        however is undoubtedly evident.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="jumbotron">
+                    <h1 class="display-6 make_small">Visualizations</h1>
+                    <hr>
+                    <div class="row navbar">
+                        <div>
+                            <h6>Temperature</h6>
+                            <a href="temp.html">
+                                <img border="0" alt="Temperature" src="Resources\assets\images\Fig1.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                        <div>
+                            <h6>Humidity</h6>
+                            <a href="humidity.html">
+                                <img border="0" alt="Humidity" src="Resources\assets\images\Fig2.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row navbar">
+                        <div>
+                            <h6>Cloudiness</h6>
+                            <a href="cloudiness.html">
+                                <img border="0" alt="Cloudiness" src="Resources\assets\images\Fig3.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                        <div>
+                            <h6>Wind Speed</h6>
+                            <a href="wind.html">
+                                <img border="0" alt="Wind Speed" src="Resources\assets\images\Fig4.png" width="100px" height="100px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
